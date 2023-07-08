@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        form{
+            background: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Please Fll Up The Form.</h1>
+        <form>
+            <label for="name">
+                Your Name:
+                <input type="text" placeholder="Your Name">
+            </label>
+            <label for="email">
+                Your Email:
+                <input type="text" placeholder="Your Email">
+            </label>
+            <label for="mobile">
+                Phone Number:
+                <input type="text" placeholder="Phone Number">
+            </label>
+            <fieldset>
+                <legend>Pick Only One</legend>
+
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa pitha
+                </label>
+                <label for="citoy">
+                    <input type="radio" name="pitha" id="citoy">Citoy Pitha
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Some Vorta</legend>
+                <label for="sorisa">
+                    <input type="checkbox" name="sorisa" id="sorisa">Sorisa Vorta
+                </label>
+                <label for="sutki">
+                    <input type="checkbox" name="sutki" id="sutki">Sutki Vorta
+                </label>
+                <label for="begun">
+                    <input type="checkbox" name="begun" id="begun">Begun Vorta
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Suggestion</legend>
+                <textarea name="" id="" cols="30" rows="4"placeholder="Any suggestion?"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
